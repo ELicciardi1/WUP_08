@@ -18,7 +18,7 @@ bears$MONTH<- as.factor(bears$MONTH)
 
 # Models in Order of Fitness
 
-## First
+## Head Length (First)
 ```{r}
 HeadLen <- lm(LENGTH~HEADLEN,data=bears)
 plot(LENGTH~HEADLEN,data=bears)
@@ -28,7 +28,7 @@ summary.lm(HeadLen)
 Adjusted R Squared - 0.8434
 Residual Standard Error - 4.235
 
-## Second
+## Chest (Second)
 ```{r}
 Chest <- lm(LENGTH~CHEST,data=bears)
 plot(LENGTH~CHEST,data=bears)
@@ -38,7 +38,7 @@ summary.lm(Chest)
 Adjusted R Squared - 0.7869
 Residual Standard Error - 4.939
 
-## Third
+## Neck (Third)
 ```{r}
 Neck <- lm(LENGTH~NECK,data=bears)
 plot(LENGTH~NECK,data=bears)
@@ -48,7 +48,7 @@ summary.lm(Neck)
 Adjusted R Squared - 0.7476
 Residual Standard Error - 5.376
 
-## Fourth
+## Weight (Fourth)
 ```{r}
 Weight <- lm(LENGTH~WEIGHT,data=bears)
 plot(LENGTH~WEIGHT,data=bears)
@@ -58,7 +58,7 @@ summary.lm(Weight)
 Adjusted R Squared - 0.7423
 Residual Standard Error - 5.432
 
-## Fifth
+## Headwidth (Fifth)
 ```{r}
 HeadWth <- lm(LENGTH~HEADWTH,data=bears)
 plot(LENGTH~HEADWTH,data=bears)
@@ -68,7 +68,7 @@ summary.lm(HeadWth)
 Adjusted R Squared - 0.5321
 Residual Standard Error - 7.23
 
-## Sixth
+## Age (Sixth)
 ```{r}
 Age <- lm(LENGTH~AGE,data=bears)
 plot(LENGTH~AGE,data=bears)
