@@ -77,3 +77,11 @@ summary.lm(Age)
 ```
 Adjusted R Squared - 0.5073
 Residual Standard Error - 7.511
+
+# My Conclusion
+
+Above are linear regression models for each of the discrete and continuous numerical variables in placed in order with the best correlation. 
+
+We tested the residual standard error with the understanding that a lower value is better as well as compared it to the adjusted R-Squared value which we wanted as close to one.
+
+We see that the best predictor of overall length is head length for this sample. Optionally we could have also done an ellipse style correlation table as described in "Practical Statistics for Data Scientists" textbook but I'm still working on an appropriate implementation.
