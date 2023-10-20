@@ -35,9 +35,10 @@ plot(LENGTH~CHEST,data=bears)
 abline(Chest)
 summary.lm(Chest)
 ```
+Adjusted R Squared - 0.7869
+Residual Standard Error - 4.939
 
-
-
+## Third
 
 
 
