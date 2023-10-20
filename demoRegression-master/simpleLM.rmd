@@ -58,5 +58,11 @@ summary.lm(Weight)
 Adjusted R Squared - 0.7423
 Residual Standard Error - 5.432
 
-
+## Fifth
+```{r}
+HeadWth <- lm(LENGTH~HEADWTH,data=bears)
+plot(LENGTH~HEADWTH,data=bears)
+abline(HeadWth)
+summary.lm(HeadWth)
+```
 
