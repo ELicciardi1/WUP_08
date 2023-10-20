@@ -65,4 +65,5 @@ plot(LENGTH~HEADWTH,data=bears)
 abline(HeadWth)
 summary.lm(HeadWth)
 ```
-
+Adjusted R Squared - 0.5321
+Residual Standard Error - 7.23
