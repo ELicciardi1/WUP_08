@@ -18,8 +18,8 @@ bears$MONTH<- as.factor(bears$MONTH)
 
 # Models in Order of Fitness
 
+## First
 ```{r}
-print("First")
 HeadLen <- lm(LENGTH~HEADLEN,data=bears)
 plot(LENGTH~HEADLEN,data=bears)
 abline(HeadLen)
@@ -28,6 +28,22 @@ summary.lm(HeadLen)
 Adjusted R Squared - 0.8434
 Residual Standard Error - 4.235
 
+## Second
+```{r}
+Chest <- lm(LENGTH~CHEST,data=bears)
+plot(LENGTH~CHEST,data=bears)
+abline(Chest)
+summary.lm(Chest)
+```
 
-## Compare all models that predict LENGTH other than NECK. Then order them from worst to best by its value of Adjusted-Rsquared (bigger is better), or by RSE (residual standard error) where smaller is better. 
+
+
+
+
+
+
+
+
+
+
 
