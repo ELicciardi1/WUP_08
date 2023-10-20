@@ -19,10 +19,11 @@ bears$MONTH<- as.factor(bears$MONTH)
 # Models in Order of Fitness
 
 ```{r}
-simp <- lm(LENGTH~NECK,data=bears)
-plot(LENGTH~NECK,data=bears)
-abline(simp)
-summary.lm(simp)
+print("First")
+HeadLen <- lm(LENGTH~HEADLEN,data=bears)
+plot(LENGTH~HEADLEN,data=bears)
+abline(HeadLen)
+summary.lm(HeadLen)
 ```
 
 
