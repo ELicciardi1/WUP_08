@@ -67,3 +67,12 @@ summary.lm(HeadWth)
 ```
 Adjusted R Squared - 0.5321
 Residual Standard Error - 7.23
+
+## Sixth
+```{r}
+Age <- lm(LENGTH~AGE,data=bears)
+plot(LENGTH~AGE,data=bears)
+abline(Age)
+summary.lm(Age)
+```
+
