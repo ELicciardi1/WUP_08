@@ -45,7 +45,8 @@ plot(LENGTH~NECK,data=bears)
 abline(Neck)
 summary.lm(Neck)
 ```
-
+Adjusted R Squared - 0.7476
+Residual Standard Error - 5.376
 
 
 
