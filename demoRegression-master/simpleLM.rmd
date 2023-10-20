@@ -48,8 +48,13 @@ summary.lm(Neck)
 Adjusted R Squared - 0.7476
 Residual Standard Error - 5.376
 
-
-
+## Fourth
+```{r}
+Weight <- lm(LENGTH~WEIGHT,data=bears)
+plot(LENGTH~WEIGHT,data=bears)
+abline(Weight)
+summary.lm(Weight)
+```
 
 
 
