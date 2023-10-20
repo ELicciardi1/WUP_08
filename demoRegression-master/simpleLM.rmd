@@ -75,4 +75,5 @@ plot(LENGTH~AGE,data=bears)
 abline(Age)
 summary.lm(Age)
 ```
-
+Adjusted R Squared - 0.5073
+Residual Standard Error - 7.511
